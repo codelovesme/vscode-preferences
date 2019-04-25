@@ -14,7 +14,7 @@
     "command": "sort-lines-by-selection.sortLinesBySelection"
   },
   {
-    "key": "ctrl+shift+up",
+    "key": "ctrl+alt+up",
     "command": "cursorMove",
     "args": {
       "to": "up",
@@ -24,7 +24,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+shift+down",
+    "key": "ctrl+alt+down",
     "command": "cursorMove",
     "args": {
       "to": "down",
