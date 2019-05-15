@@ -32,5 +32,19 @@
       "value": 10
     },
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+`",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+cmd+`",
+    "command": "workbench.action.terminal.focusNext"
   }
 ]
